@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Mono+One&display=swap');
+body {
+    font-family: "Paytone One", sans-serif;
+    background-color: #192A32;
+    text-align: center;
+    
+  }
+
+  
+  #gameBoard {
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .75rem;
+    max-width: 19rem;
+    padding-left: 32.5rem;
+    text-align: center;
+    line-height: 5.5rem;
+  }
+  #gameBoard span {
+    background-color: #1F3540;
+    display: grid;
+    font-size: 5rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 2px  #0E202A;
+}
+
+  
+  #gameBoard span.win {
+    background-color: #25a340;
+  }
+
+  h1, h2 {
+    color: #A8BEC9;
+  }
+  
+  label[for="player1"] {
+    color: #30C2BF;
+  }
+  label[for="player2"] {
+    color: #F4B037;
+  }
+  
+  input {
+      background: transparent;
+      font-family: "Paytone One", sans-serif;
+      border: none;
+      outline: none;
+      border: 2px solid rgba(255, 255,255, .2);
+      border-radius: 40px;
+      font-size: 14px;
+      color: #fff;
+      padding: 10px 22.5px 10px 10px;
+    margin-right: 12px;
+    margin-left: 5px;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+button {
+  cursor: pointer;
+  color: var(--bg-color);
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+#start {
+  background-color: #31C4BE;
+  border: none;
+  border-radius: 10px;
+  padding: .80rem;
+  font-size: 20px;
+  color: #192A32;
+  font-family: "Paytone One", sans-serif;
+  margin-right: 20px;
+}
+
+#reset {
+  background-color: #A7BFC8;
+  border: none;
+  border-radius: 10px;
+  padding: .55rem;
+  font-family: "Paytone One", sans-serif;
+  padding-right: 14px;
+  padding-left: 14px;
+}

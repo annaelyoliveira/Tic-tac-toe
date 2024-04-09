@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  
+</head>
+<body>
+  <header class="titles">
+  <h1>Jogo da Velha</h1>
+  <label for="player1">X</label>
+  <input type="text" id="player1" placeholder="Nome do Jogador 1">
+  <label for="player2">O</label>
+  <input type="text" id="player2" placeholder="Nome do Jogador 2">
+  <br>
+  <button id="start">Start</button>
+  <button id="reset"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATtJREFUSEvtlDFLw0Acxd+/tnVzUTFH/QDmhIIpQt0F+0V0EjdxKIKKk7MFP0UFF6ngR/Cy2Os3yGXSwVX9tyeI0qbJWZOtN7+8X/LeuxAKPlSwP+aAzIRTI5JSVl9psWP64X6m0xTBVMCK3xBV4i4DTaPVzF0lPrjmB80FgjUX9sVyBQgZHBBwzUDFJRYGHonRMQN1m6Sf+IK/Ar5NGTiLtTofhyRGVNvY2vksUReAlxbRqtz2yvRxCEbb6qhEe9Hz08NvSC4lCz9og3AJoGe0ajkBrMh1pnZxFeII4Bejw2VngEvJVvMDwJvRail3gLfZOCXmC7uoWKvd3AC1en2d38tHDBx/mRJapq96/wIIGYwWOXmIcRIN1JXTTNOyHwcwcAfwTazDe6eL5lqsq27mn9gc4JpApq7wDoZ21mcZevmqNAAAAABJRU5ErkJggg=="/></button>
+  <h2>Vez de <span id="turnPlayer"></span></h2>
+</header>
+  <section id="gameBoard">
+    <span class="cursor-pointer" data-region="0.0"></span>
+    <span class="cursor-pointer" data-region="0.1"></span>
+    <span class="cursor-pointer" data-region="0.2"></span>
+    <span class="cursor-pointer" data-region="1.0"></span>
+    <span class="cursor-pointer" data-region="1.1"></span>
+    <span class="cursor-pointer" data-region="1.2"></span>
+    <span class="cursor-pointer" data-region="2.0"></span>
+    <span class="cursor-pointer" data-region="2.1"></span>
+    <span class="cursor-pointer" data-region="2.2"></span>
+  </section>
+</body>
+</html>
