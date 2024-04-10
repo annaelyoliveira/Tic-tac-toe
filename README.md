@@ -4,7 +4,7 @@ Foi desenvolvido em um projeto guiado do curso que estou fazendo. Coloquei algum
 Objetivo: Estudo de JavaScript
 
 ## Demonstração
-[screen-capture (3).webm](https://github.com/annaelyoliveira/Tic-tac-toe/assets/137449419/b5cf3846-c4ae-46a8-8fff-c326b964278b)
+https://github.com/annaelyoliveira/Tic-tac-toe/assets/137449419/984fc7a7-d350-4304-9c18-0944eab454de
 
 ## Tela Inicial
 ![Captura de tela 2024-04-09 202201](https://github.com/annaelyoliveira/Tic-tac-toe/assets/137449419/fbd47743-e45a-450e-9014-b39e4f3dcf77)
