@@ -16,6 +16,9 @@ body {
   padding-left: 32.5rem;
   text-align: center;
   line-height: 5.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
 }
 
 #gameBoard span {
@@ -147,13 +150,11 @@ button:hover {
   }
   #gameBoard {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Dividir em 3 colunas */
-    grid-template-rows: repeat(3, 1fr); /* Dividir em 3 linhas */
-    gap: 10px; /* Espaçamento entre os itens */
-    width: 310px; /* Largura total do jogo (ajuste conforme necessário) */
-    height: 310px; /* Altura total do jogo (ajuste conforme necessário) */
-    margin: 0 auto; /* Centraliza a section na página */
-    margin-left: -470px;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-template-rows: 7rem 7rem 7rem;
+    gap: .75rem;
+    max-width: 19rem;
+    margin-left: -500px;
     margin-top: -65px;
   }
 
