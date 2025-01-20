@@ -141,17 +141,17 @@ button:hover {
   
   h2{
     position: relative;
-    top: -58px;
+    top: -55px;
   }
   #gameBoard {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Dividir em 3 colunas */
     grid-template-rows: repeat(3, 1fr); /* Dividir em 3 linhas */
     gap: 10px; /* Espaçamento entre os itens */
-    width: 300px; /* Largura total do jogo (ajuste conforme necessário) */
-    height: 300px; /* Altura total do jogo (ajuste conforme necessário) */
+    width: 310px; /* Largura total do jogo (ajuste conforme necessário) */
+    height: 310px; /* Altura total do jogo (ajuste conforme necessário) */
     margin: 0 auto; /* Centraliza a section na página */
-    margin-left: -480px;
+    margin-left: -470px;
     margin-top: -65px;
   }
 
