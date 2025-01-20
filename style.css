@@ -153,7 +153,7 @@ button:hover {
     width: 310px; /* Largura total do jogo (ajuste conforme necessário) */
     height: 310px; /* Altura total do jogo (ajuste conforme necessário) */
     margin: 0 auto; /* Centraliza a section na página */
-    margin-left: -490px;
+    margin-left: -470px;
     margin-top: -65px;
   }
 
