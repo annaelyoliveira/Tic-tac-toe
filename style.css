@@ -100,17 +100,17 @@ button:hover {
   }
   input{
     margin-top: 5px;
-    font-size: 14px;
-    padding: 20px 20px;
+    font-size: 22px;
+    padding: 10px 10px;
     width: 250px;
     margin: -50px 0px 40px 200px; 
     display: block; 
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-left: 70px; 
   }
 
   input::placeholder {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   label{
@@ -118,6 +118,8 @@ button:hover {
     flex-direction: left;
     margin-left: 30px;
     font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: 5px;
     
   }
   #start {
