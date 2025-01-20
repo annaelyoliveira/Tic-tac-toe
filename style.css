@@ -95,14 +95,15 @@ button:hover {
 @media screen and (max-width: 798px) {
   h1 {
     font-size: 43px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 10px;
   }
   input{
     margin-top: 5px;
     font-size: 14px;
     padding: 20px 20px;
     width: 250px;
-    margin: -50px 0px 45px 200px; 
+    margin: -50px 0px 40px 200px; 
     display: block; 
     margin-bottom: 20px;
     margin-left: 70px; 
@@ -122,22 +123,36 @@ button:hover {
   #start {
     cursor: pointer;
     font-size: 23.5px;
+    padding: 10px;
     margin-right: 20px;
-    width: 140px;
+    width: 110px;
     position: relative;
-    top: -30px; 
+    top: -40px; 
+    
   }
 
   #reset{
     position: relative;
-    top: -30px;
+    top: -40px;
     padding-right: 25px;
     padding-left: 25px;
-    height: 58px;
+    height: 54px;
   }
   
   h2{
     position: relative;
-    top: -35px;
+    top: -58px;
   }
+  #gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Dividir em 3 colunas */
+    grid-template-rows: repeat(3, 1fr); /* Dividir em 3 linhas */
+    gap: 10px; /* Espaçamento entre os itens */
+    width: 300px; /* Largura total do jogo (ajuste conforme necessário) */
+    height: 300px; /* Altura total do jogo (ajuste conforme necessário) */
+    margin: 0 auto; /* Centraliza a section na página */
+    margin-left: -480px;
+    margin-top: -65px;
+  }
+
 }
